@@ -15,29 +15,33 @@ body {
 }
 
 
-/* Custom scrollbar for WebKit-based browsers */
+
 body::-webkit-scrollbar {
-    /* Set the width of the scrollbar */
+
     width: 10px;
 }
 
 body::-webkit-scrollbar-track {
-    /* Set the background color of the scrollbar track */
+
     background-color: rgb(53, 95, 53);
-    /* Set the border-radius for the scrollbar track */
+
     border-radius: 8px;
 }
 
 body::-webkit-scrollbar-thumb {
-    /* Set the color of the scrollbar thumb (scrollbar color near deep red) */
+
     background-color: #e48787;
-    /* Deep red color */
-    /* Set the border-radius for the scrollbar thumb */
+
     border-radius: 8px;
 }
 
 body::-webkit-scrollbar-thumb:hover {
-    /* Set the color of the scrollbar thumb when hovering (changes shade) */
+
     background-color: #990000;
-    /* Slightly darker red on hover */
+
+}
+
+.text-shadow {
+    text-shadow: 2px 2px 2px #000000b2;
+
 }
